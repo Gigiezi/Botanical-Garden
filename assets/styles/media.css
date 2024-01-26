@@ -11,6 +11,7 @@
         flex-direction: column;
         align-items: center;
         gap: 64px;
+        padding-bottom: 70px;
     }
     .hiroText{
         align-items: center;
@@ -20,6 +21,20 @@
         content: url(../icons/burgerMenu.svg);
         background-repeat: no-repeat;
         cursor: pointer;
+    }
+    .middleText{
+        order: 1;
+    }
+    .middleBottomImage, .middleTopImage {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .middleBottomImage img{
+        width: 534px;
+    }
+    .middleContentContainer{
+        gap: 40px;
     }
 }
 
@@ -41,6 +56,7 @@
         flex-direction: column;
         align-items: center;
         gap: 56px;
+        padding-bottom: 64px;
     }
     .hiroText{
         align-items: center;
@@ -50,10 +66,32 @@
     .hiroImage img{
         width: 254px;
     }
-    .hiroText h1{
+    .hiroText h1, .middleText h2{
         font-size: 34px;
+    }
+    .middleText p{
+        font-size: 16px;
     }
     .hiroText p{
         font-size: 20px;
+    }
+    .middleText{
+        order: 1;
+        text-align: center;
+    }
+    .middleBottomImage, .middleTopImage {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .middleBottomImage img{
+        width: 344px;
+    }
+    .middleTopImage img{
+        width: 344px;
+    }
+
+    .middleContentContainer{
+        gap: 16px;
     }
 }
