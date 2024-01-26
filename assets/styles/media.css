@@ -1,0 +1,59 @@
+/* For Tablet */
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    header{
+        padding: 0 16px;
+    }
+    .navigationItems{
+        display: none;
+    }
+    .hiroContainer{
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+    }
+    .hiroText{
+        align-items: center;
+        text-align: center;
+    }
+    nav::after{
+        content: url(../icons/burgerMenu.svg);
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+}
+
+/* For Mobile */
+
+@media screen and (max-width: 767px) {
+    nav::after{
+        content: url(../icons/burgerMenu.svg);
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+    header{
+        padding: 0 16px;
+    }
+    .navigationItems{
+        display: none;
+    }
+    .hiroContainer{
+        flex-direction: column;
+        align-items: center;
+        gap: 56px;
+    }
+    .hiroText{
+        align-items: center;
+        text-align: center;
+        gap: 24px;
+    }
+    .hiroImage img{
+        width: 254px;
+    }
+    .hiroText h1{
+        font-size: 34px;
+    }
+    .hiroText p{
+        font-size: 20px;
+    }
+}

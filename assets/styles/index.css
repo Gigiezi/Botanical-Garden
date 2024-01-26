@@ -47,6 +47,7 @@ header{
     font-style: italic;
     color: #333333;
     letter-spacing: 1px;
+    font-weight: 400;
 }
 .headerLogo span:first-of-type{
     color: #343D33;
@@ -70,6 +71,7 @@ header{
 
 /* || Hiro Styles */
 .hiroContainer{
+    padding-bottom: 115px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -99,4 +101,9 @@ header{
 .hiroBtn{
     color: #ffffff;
     background-color: #475F45;
+}
+.hiroButtons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
