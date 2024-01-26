@@ -22,6 +22,9 @@ h1,h2,h3,h4,h5,h6{
 .btn{
     padding: 15px 30px;
     border: 2px solid #475F45;
+    text-decoration: none;
+    color: #475F45;
+    text-transform: uppercase;
 }
 /* || Header And Navigation Styles */
 header{
@@ -63,4 +66,37 @@ header{
     color: #414840;
     font-size: 14px;
     letter-spacing: 2px;
+}
+
+/* || Hiro Styles */
+.hiroContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+.hiroHeading{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.hiroHeading h1{
+    font-size: 57px;
+    color: #343D33;
+    text-transform: capitalize;
+    white-space: pre-line;
+}
+.hiroHeading p{
+    font-size: 25px;
+    font-weight: 300;
+    white-space: pre-line;
+}
+.hiroText{
+     display: flex;
+     flex-direction: column;
+     gap: 52px;
+}
+.hiroBtn{
+    color: #ffffff;
+    background-color: #475F45;
 }
