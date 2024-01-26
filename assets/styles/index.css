@@ -1,14 +1,21 @@
 /* || General Styles */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto";
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Libre Baskerville";
 }
-.mainContainer{
+
+.mainContainer {
     background-image: url(../images/newsBg.svg);
     background-repeat: no-repeat;
     background-position: right top 1800px;
@@ -17,54 +24,63 @@ h1,h2,h3,h4,h5,h6{
     justify-content: center;
     align-items: center;
 }
-.container{
+
+.container {
     max-width: 1200px;
     width: 100%;
 }
-.btn{
+
+.btn {
     padding: 15px 30px;
     border: 2px solid #475F45;
     text-decoration: none;
     color: #475F45;
     text-transform: uppercase;
 }
+
 /* || Header And Navigation Styles */
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 14px;
     padding-bottom: 15px;
 }
-.headerLogo{
+
+.headerLogo {
     display: flex;
     align-items: center;
     gap: 14px;
 }
-.headerLogo span{
+
+.headerLogo span {
     display: block;
 }
-.headerBottomText{
+
+.headerBottomText {
     font-size: 15px;
     font-style: italic;
     color: #333333;
     letter-spacing: 1px;
     font-weight: 400;
 }
-.headerLogo span:first-of-type{
+
+.headerLogo span:first-of-type {
     color: #343D33;
     font-size: 23px;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
-.navigationItems{
+
+.navigationItems {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 40px;
 }
-.navigationItems a{
+
+.navigationItems a {
     text-decoration: none;
     color: #414840;
     font-size: 14px;
@@ -72,39 +88,45 @@ header{
 }
 
 /* || Hiro Styles */
-.hiroContainer{
+.hiroContainer {
     padding-bottom: 115px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 56px;
 }
-.hiroHeading{
+
+.hiroHeading {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-.hiroHeading h1{
+
+.hiroHeading h1 {
     font-size: 57px;
     color: #343D33;
     text-transform: capitalize;
     white-space: pre-line;
 }
-.hiroHeading p{
+
+.hiroHeading p {
     font-size: 25px;
     font-weight: 300;
     white-space: pre-line;
 }
-.hiroText{
-     display: flex;
-     flex-direction: column;
-     gap: 52px;
+
+.hiroText {
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
 }
-.hiroBtn{
+
+.hiroBtn {
     color: #ffffff;
     background-color: #475F45;
 }
-.hiroButtons{
+
+.hiroButtons {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -112,7 +134,7 @@ header{
 
 /* || Main Content Section Styles */
 
-.middleContent{
+.middleContent {
     background-color: #343D33;
     background-image: url(../images/middleContentBg.svg);
     background-repeat: no-repeat;
@@ -120,10 +142,12 @@ header{
     width: 100%;
     padding: 96px 0;
 }
-.middleText{
+
+.middleText {
     white-space: pre-line;
 }
-.middleContentContainer{
+
+.middleContentContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -131,40 +155,46 @@ header{
     gap: 80px;
     color: #ffffff;
 }
-.middleText h2{
+
+.middleText h2 {
     font-size: 45px;
     font-weight: 400;
     text-transform: capitalize;
 }
-.middleText p{
+
+.middleText p {
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 32px;
 }
-.middleBottomImage img{
+
+.middleBottomImage img {
     width: 100%;
 }
-.MiddleContentBtn{
+
+.MiddleContentBtn {
     color: #ffffff;
     border: 2px solid #ffffff;
 }
 
 /* || News And Updates Section */
-.newsSection{
+.newsSection {
     background-image: url(../images/newsBg.svg);
     background-repeat: no-repeat;
     background-position: top right;
     padding-top: 96px;
     padding-bottom: 113px;
 }
-.newsContainer{
+
+.newsContainer {
     padding: 96px 0;
     display: flex;
     flex-direction: column;
     gap: 48px;
 }
-.newsHeadingText{
+
+.newsHeadingText {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -174,35 +204,44 @@ header{
     letter-spacing: 3px;
     text-transform: uppercase;
 }
-.newsHeading h2{
+
+.newsHeading h2 {
     font-size: 45px;
     color: #343D33;
     font-weight: 400;
     margin-bottom: 16px;
 }
-.line{
+
+.line {
     height: 2px;
     width: 131px;
     background-color: #475F45;
     border: 0;
     opacity: 0.4;
 }
-.newsLeftCard{
+
+.newsLeftCard {
     display: flex;
     flex-direction: column;
 }
 
-.newsLeftCard h3, .newsItemText h4{
+.newsLeftCard h3,
+.newsItemText h4 {
     font-size: 23px;
     color: #475F45;
     font-weight: 700;
     margin-top: 20px;
     margin-bottom: 12px;
 }
-.newsItemText h4, .newsItemText p, .newsItemText span{
+
+.newsItemText h4,
+.newsItemText p,
+.newsItemText span {
     margin: 0;
 }
-.newsLeftCard p, .newsItemText p{
+
+.newsLeftCard p,
+.newsItemText p {
     white-space: pre-line;
     color: #414840;
     font-weight: 400;
@@ -210,17 +249,21 @@ header{
     line-height: 24px;
     margin-bottom: 12px;
 }
-.newsLeftCard span, .newsItemText span{
+
+.newsLeftCard span,
+.newsItemText span {
     font-size: 16px;
     color: #343D33;
     font-style: italic;
 }
-.newsCardContainer{
+
+.newsCardContainer {
     display: flex;
     justify-content: space-between;
     gap: 50px;
 }
-.newsItem{
+
+.newsItem {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -228,15 +271,125 @@ header{
     padding-top: 20px;
     border-bottom: 1px solid #C4C4C4;
 }
-.newsItemContainer .newsItem:first-of-type{
+
+.newsItemContainer .newsItem:first-of-type {
     padding-top: 0;
 }
-.newsItemContainer .newsItem:last-of-type{
+
+.newsItemContainer .newsItem:last-of-type {
     border-bottom: 0;
     padding-bottom: 0;
 }
-.newsItemText{
+
+.newsItemText {
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+
+/* || Footer */
+
+footer {
+    background-color: #414840;
+    padding-top: 48px;
+    width: 100%;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.footerLogo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footerLogoText span {
+    display: block;
+    color: #FFFFFF;
+}
+
+.footerLogoText span:first-of-type {
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Libre Baskerville";
+}
+
+.footerLogoText span:last-of-type {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.footerBottom {
+    width: 100%;
+    background-color: #343D33;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.footerLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLeftText {
+    white-space: pre-line;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 24px;
+}
+
+.footerNavigation ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+.footerNavigation ul li {
+    font-size: 14px;
+}
+
+.footerNavigation ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footerListHeading {
+    padding-bottom: 10px;
+}
+
+.footerListHeading a {
+    font-size: 16px;
+    font-family: "Libre Baskerville";
+}
+
+.footerRight {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footerRight span{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Libre Baskerville";
+}
+.socialLinks{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.socialLinks img{
+    cursor: pointer;
 }

@@ -1,132 +1,179 @@
 /* For Tablet */
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
-    header{
+    header {
         padding: 0 16px;
     }
-    .navigationItems{
+
+    .navigationItems {
         display: none;
     }
-    .hiroContainer{
+
+    .hiroContainer {
         flex-direction: column;
         align-items: center;
         gap: 64px;
         padding-bottom: 70px;
     }
-    .hiroText{
+
+    .hiroText {
         align-items: center;
         text-align: center;
     }
-    nav::after{
+
+    nav::after {
         content: url(../icons/burgerMenu.svg);
         background-repeat: no-repeat;
         cursor: pointer;
     }
-    .middleText{
+
+    .middleText {
         order: 1;
     }
-    .middleBottomImage, .middleTopImage {
+
+    .middleBottomImage,
+    .middleTopImage {
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    .middleBottomImage img{
+
+    .middleBottomImage img {
         width: 534px;
     }
-    .middleContentContainer{
+
+    .middleContentContainer {
         gap: 40px;
     }
-    .newsCardContainer{
+
+    .newsCardContainer {
         flex-direction: column;
     }
-    .newsContainer{
+
+    .newsContainer {
         padding-left: 24px;
     }
-    .newsLeftCard{
+
+    .newsLeftCard {
         flex-direction: row;
         gap: 24px;
     }
-    .newsLeftCard img{
+
+    .newsLeftCard img {
         width: 392px;
+    }
+    .footerContainer{
+        padding: 0 24px;
     }
 }
 
 /* For Mobile */
 
 @media screen and (max-width: 767px) {
-    nav::after{
+    nav::after {
         content: url(../icons/burgerMenu.svg);
         background-repeat: no-repeat;
         cursor: pointer;
     }
-    header{
+
+    header {
         padding: 0 16px;
     }
-    .navigationItems{
+
+    .navigationItems {
         display: none;
     }
-    .hiroContainer{
+
+    .hiroContainer {
         flex-direction: column;
         align-items: center;
         gap: 56px;
         padding-bottom: 64px;
     }
-    .hiroText{
+
+    .hiroText {
         align-items: center;
         text-align: center;
         gap: 24px;
     }
-    .hiroImage img{
+
+    .hiroImage img {
         width: 254px;
     }
-    .hiroText h1, .middleText h2{
+
+    .hiroText h1,
+    .middleText h2 {
         font-size: 34px;
     }
-    .middleText p{
+
+    .middleText p {
         font-size: 16px;
     }
-    .hiroText p{
+
+    .hiroText p {
         font-size: 20px;
     }
-    .middleText{
+
+    .middleText {
         order: 1;
         text-align: center;
     }
-    .middleBottomImage, .middleTopImage {
+
+    .middleBottomImage,
+    .middleTopImage {
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    .middleBottomImage img{
-        width: 344px;
-    }
-    .middleTopImage img{
+
+    .middleBottomImage img {
         width: 344px;
     }
 
-    .middleContentContainer{
+    .middleTopImage img {
+        width: 344px;
+    }
+
+    .middleContentContainer {
         gap: 16px;
     }
-    .newsHeading{
+
+    .newsHeading {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .newsCardContainer{
+
+    .newsCardContainer {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-    .newsLeftCard{
+
+    .newsLeftCard {
         align-items: center;
     }
-    .newsLeftCard img{
+
+    .newsLeftCard img {
         width: 343px;
     }
-    .newsItem{
+
+    .newsItem {
         flex-direction: column;
     }
-    .line{
+
+    .line {
         width: 48px;
+    }
+
+    .footerContainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 48px;
+    }
+    .footerRight{
+        align-self: center;
     }
 }
