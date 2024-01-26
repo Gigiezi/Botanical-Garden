@@ -1,0 +1,66 @@
+/* || General Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Libre Baskerville";
+}
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    font-weight: 700;
+}
+.btn{
+    padding: 15px 30px;
+    border: 2px solid #475F45;
+}
+/* || Header And Navigation Styles */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 14px;
+    padding-bottom: 15px;
+}
+.headerLogo{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.headerLogo span{
+    display: block;
+}
+.headerBottomText{
+    font-size: 15px;
+    font-style: italic;
+    color: #333333;
+    letter-spacing: 1px;
+}
+.headerLogo span:first-of-type{
+    color: #343D33;
+    font-size: 23px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+.navigationItems{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+.navigationItems a{
+    text-decoration: none;
+    color: #414840;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
